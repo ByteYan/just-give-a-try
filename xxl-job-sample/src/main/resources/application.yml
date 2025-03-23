@@ -1,0 +1,15 @@
+server:
+  port: 8000
+
+xxl.job:
+  admin:
+    # address list, such as "http://address"
+    address: http://localhost:8080/xxl-job-admin
+  accessToken: 123456789 # docker中参数配置的token
+  executor:
+    appname: batch-process-job # 任务执行器名称
+    address: # 默认不填，自动发现
+    ip: # 默认不填，自动发现
+    port: 9999
+    logpath: ./logs
+    logretentiondays: 30

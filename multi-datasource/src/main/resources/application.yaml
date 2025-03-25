@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    ds1:
+      jdbcUrl: jdbc:mysql://192.168.31.102:3306/ds1
+      username: root
+      password: root
+    ds2:
+      jdbcUrl: jdbc:mysql://192.168.31.102:3306/ds2
+      username: root
+      password: root
+logging:
+  level:
+    root: debug
